@@ -11,7 +11,9 @@ $(document).ready(function() {
     $('.color').text(colorInput);
     $('.planet').text(planetInput);
     $('.season').text(seasonInput);
+
     $('#list').show();
+    
     event.preventDefault();
   });
 });
