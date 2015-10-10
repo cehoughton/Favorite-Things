@@ -4,11 +4,13 @@ $(document).ready(function() {
     var movieInput = $("input#movie").val();
     var colorInput = $("input#color").val();
     var planetInput = $("input#planet").val();
+    var seasonInput = $("input#season").val();
 
-    $('.book').append(bookInput);
-    $('.movie').append(movieInput);
-    $('.color').append(colorInput);
-
+    $('.book').text(bookInput);
+    $('.movie').text(movieInput);
+    $('.color').text(colorInput);
+    $('.planet').text(planetInput);
+    $('.season').text(seasonInput);
     $('#list').show();
     event.preventDefault();
   });
