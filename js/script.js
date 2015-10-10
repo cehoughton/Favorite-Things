@@ -5,9 +5,9 @@ $(document).ready(function() {
     var colorInput = $("input#color").val();
     var planetInput = $("input#planet").val();
 
-    $('ul').append(bookInput);
-    $('ul').append(movieInput);
-    $('ul').append(colorInput);
+    $('.book').append(bookInput);
+    $('.movie').append(movieInput);
+    $('.color').append(colorInput);
 
     $('#list').show();
     event.preventDefault();
